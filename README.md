@@ -1,7 +1,7 @@
 元ネタはこちら。https://github.com/pmed/v8-nuget  
 最新のversionでビルドしてみた。大きいファイルは上げられないみたいなので残りは下に  
   
-v8-v143-x64.15.8.33.nupkg ヘッダとlibフアイル。ここに上がってるやつ  
+v8-v143-x64.15.8.33.nupkg ヘッダとlibファイル。ここに上がってるやつ  
   
 v8.redist-v143-x64.15.8.33.nupkg  dllファイル  
 https://mega.nz/file/06xjhAQR#4T_9M2ykB8zzhlhCCoEtUE3UVaSvAoQ3lHn_1AjMGlc  
