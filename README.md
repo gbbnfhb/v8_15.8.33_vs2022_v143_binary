@@ -22,3 +22,14 @@ c++/clang両方対応。あまり複雑なのは試していませんが、今�
 10.0.26100.0 は必須なのでこれは変えないでください   
     
 最新版は結構あちこち変わってたので苦労しました  
+他にもあるけど主な変更は以下のところ  
+~~~
+✅ SDK_VERSION = '10.0.26100.0' patched in both setup_toolchain.py and vs_toolchain.py
+✅ NTDDI_VERSION=NTDDI_WIN11_GE patched in build/config/win/BUILD.gn
+✅ --skip-sync flag added so it won't reset your manual changes
+✅ windows_sdk_version = "10.0.26100.0" and visual_studio_version = "2022" in GN_OPTIONS
+✅ DEPOT_TOOLS_UPDATE = '0' set to prevent depot_tools from updating itself
+✅ INCLUDE/LIB env var filtering to remove non-existent paths
+~~~
+
+
