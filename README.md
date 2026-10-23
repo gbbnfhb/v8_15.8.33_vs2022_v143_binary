@@ -30,6 +30,9 @@ c++/clang両方対応。あまり複雑なのは試していませんが、今�
 ✅ windows_sdk_version = "10.0.26100.0" and visual_studio_version = "2022" in GN_OPTIONS
 ✅ DEPOT_TOOLS_UPDATE = '0' set to prevent depot_tools from updating itself
 ✅ INCLUDE/LIB env var filtering to remove non-existent paths
-~~~
-
+~~~  
+<br><br><br><br><br>
+■d8とv8windbgが入ってない理由  
+static linkにするとファイルが2G以上になると言われているし、リンクに時間がかかるようになるため今回は同梱してません  
+<img width="689" height="783" alt="無題" src="https://github.com/user-attachments/assets/9eb543e8-7ce7-4bf2-b4f2-14e696adb43a" />
 
